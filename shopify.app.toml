@@ -3,7 +3,7 @@
 client_id = "fe7026f63c8cfe28cdd93d9ca0e6a15b"
 name = "synergistic-account-app"
 handle = "synergistic-account-app-9"
-application_url = "https://d07f-203-110-242-44.ngrok-free.app"
+application_url = "https://6724-2401-4900-77af-9a73-b456-ce62-c954-95d1.ngrok-free.app"
 embedded = true
 
 [build]
@@ -15,7 +15,9 @@ dev_store_url = "alpha-store-ds.myshopify.com"
 scopes = "write_products"
 
 [auth]
-redirect_urls = [ "https://d07f-203-110-242-44.ngrok-free.app/auth/callback" ]
+redirect_urls = [
+  "https://6724-2401-4900-77af-9a73-b456-ce62-c954-95d1.ngrok-free.app"
+]
 
 [webhooks]
 api_version = "2025-01"
